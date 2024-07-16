@@ -173,18 +173,22 @@ pre {
   font-family: 'Jost', sans-serif;
 }
 
-.keyword {
+.cor-28F1A7 {
   color: #28F1A7;
 }
-.class-name {
+.cor-B0B0B0 {
   color: #B0B0B0;
 }
 
-.string {
-  color: #FFF;
+.cor-FFFFFF {
+  color: #FFFFFF;
 }
 
-.valores{
+.cor-000000{
+  color: #000000;
+}
+
+.cor-6F6F6F{
   color: #6F6F6F;
 }
 
@@ -198,4 +202,8 @@ pre {
 
 .container-github-linkedin img{
   width: 30px;
+}
+
+.sobre-mim{
+  background-color: #FFFFFF;
 }
