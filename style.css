@@ -300,3 +300,94 @@ pre {
 .experiencia-container:last-of-type{
   padding: 0 0 0px 10px;
 }
+
+.slide{
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.card{
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 430px;
+  position: relative;
+}
+
+.card h3{
+  font-size: 24px;
+  margin: 20px 20px 0px 20px;
+}
+
+.card p{
+  font-size: 14px;
+  margin: 20px 20px 0px 20px;
+}
+
+.logo-github-projeto{
+  position: absolute;
+  left: 125px;
+  bottom: 10px;
+  max-width: 30px;
+}
+
+
+.contato{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.contato-elementos-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 20px 0 20px;
+
+}
+
+.contato-texto{
+  color: #FFFFFF;
+}
+
+.contato-texto h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contato-texto p{
+  font-size: 20px;
+}
+
+.contato-texto strong{
+  color: #28F1A7;
+}
+
+.contato-texto ul{
+  list-style: disc;
+}
+
+.contato-texto li{
+  margin: 20px 20px 0 20px;
+  font-size: 14px;
+}
+
+.contato-localizacao p{
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: #000000;
+}
+
+footer p{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+
+}

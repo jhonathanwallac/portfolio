@@ -9,3 +9,4 @@ document.addEventListener('DOMContentLoaded', function() {
       navLinks.classList.toggle('open');
   });
 });
+
