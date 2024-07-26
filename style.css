@@ -52,7 +52,6 @@ table {
 body {
   margin: 0;
   font-family: 'Jost', sans-serif;
-  background-color: #000;
 }
 
 .navbar {
@@ -165,6 +164,10 @@ nav{
   align-items: center;
 }
 
+main{
+  background-color: #000000;
+}
+
 pre {
   color: #fff;
   padding: 20px;
@@ -209,6 +212,14 @@ pre {
   background-color: #FFFFFF;
 }
 
+.container-elementos-sobre-mim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+}
+
 .subtitulo span{
  color: #28F1A7;
 }
@@ -229,27 +240,63 @@ pre {
 }
 
 .sobre-mim img{
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  z-index: 6;
+  max-height: 378px;
+  margin-top: 20px;  
 }
 
-.detalhe-foto{
-  position: absolute;
-  width: 200px;
-  height: 355px;
-  bottom: 25px;
-  right: 0px;
-  border: 2px solid black;
-  border-radius: 10px;
-  z-index: 5;
-}
-
-.container-foto{
+.experiencia-container{
   position: relative;
-  width: 225px;
-  margin: 50px auto;
+  margin: 0 20px;
+  padding: 0 0 30px 10px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  border-left: solid 4px #000000;
+  gap: 15px;
+}
 
+.marcador{
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  background-color: #28F1A7;
+  left: -12px;
+}
+
+.emoji{
+  line-height: 10px;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.experiencia-texto h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.experiencia-texto p{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.tags span{
+  background-color: #28F1A7;
+  color: #000000;
+  border-radius: 10px;
+  padding: 2px 4px;
+}
+
+
+.experiencia-container:last-of-type{
+  padding: 0 0 0px 10px;
 }
