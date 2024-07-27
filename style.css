@@ -442,6 +442,7 @@ footer p{
 
 
 @media (min-width: 768px) {
+  
   .codigo-pagina-inicial pre{
     font-size: 18px;
   }
@@ -480,5 +481,7 @@ footer p{
     gap: 20px;
     align-items: flex-end;
   }
+
+  
 
 }
