@@ -47,8 +47,6 @@ table {
 
 /* Custom css */
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
   margin: 0;
   font-family: 'Jost', sans-serif;
@@ -168,6 +166,11 @@ main{
   background-color: #000000;
 }
 
+.container-conteudo{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 pre {
   color: #fff;
   padding: 20px;
@@ -227,8 +230,8 @@ pre {
 .subtitulo{
   padding: 30px 20px 20px 20px;
   color: #000000;
-  font-size: 32px;
-  font-weight: normal;
+  font-size: 36px;
+  font-weight: 400;
 }
 
 .sobre-mim p{
@@ -277,6 +280,7 @@ pre {
 
 .experiencia-texto p{
   font-size: 14px;
+  font-weight: 300;
   margin-bottom: 10px;
 }
 
@@ -292,6 +296,8 @@ pre {
 .tags span{
   background-color: #28F1A7;
   color: #000000;
+  font-size: 12px;
+  font-weight: 400;
   border-radius: 10px;
   padding: 2px 4px;
 }
@@ -303,6 +309,7 @@ pre {
 
 .slide{
   margin: 0px 20px 20px 20px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -326,6 +333,7 @@ pre {
 
 .card p{
   font-size: 14px;
+  font-weight: 300;
   margin: 20px 20px 0px 20px;
 }
 
@@ -345,7 +353,7 @@ pre {
 .contato-elementos-container{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   padding: 0 20px 0 20px;
 
 }
@@ -361,10 +369,12 @@ pre {
 
 .contato-texto p{
   font-size: 20px;
+  font-weight: 300;
 }
 
 .contato-texto strong{
   color: #28F1A7;
+  font-weight: 400;
 }
 
 .contato-texto ul{
@@ -379,6 +389,7 @@ pre {
 .contato-localizacao p{
   color: #FFFFFF;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 footer{
@@ -390,4 +401,84 @@ footer p{
   text-align: center;
   padding: 40px 20px 20px 20px;
   font-size: 12px;
+}
+
+.slide::-webkit-scrollbar {
+  height: 8px;
+}
+
+.slide::-webkit-scrollbar-track {
+  background: #e3e3e3;
+  border-radius: 10px;
+}
+
+.slide::-webkit-scrollbar-thumb {
+  background: #3d3d3d;
+  border-radius: 10px;
+}
+
+.slide::-webkit-scrollbar-thumb:hover {
+  background: #1dbf94;
+}
+
+.container-elementos-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-elementos-sobre-mim img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+@media(max-width: 340px) {
+  .codigo-pagina-inicial pre{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .codigo-pagina-inicial pre{
+    font-size: 18px;
+  }
+
+  .container-elementos-sobre-mim {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .container-elementos-sobre-mim p {
+    max-width: 55%;
+    text-align: left;
+  }
+
+  .container-elementos-sobre-mim img {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .contato-elementos-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .contato-texto {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .contato-localizacao {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: flex-end;
+  }
+
 }
