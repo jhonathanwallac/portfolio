@@ -424,6 +424,7 @@ footer p{
 .slide::-webkit-scrollbar-thumb {
   background: #3d3d3d;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .slide::-webkit-scrollbar-thumb:hover {
