@@ -47,6 +47,11 @@ table {
 
 /* Custom css */
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
 body {
   margin: 0;
   font-family: 'Jost', sans-serif;
@@ -125,7 +130,6 @@ body {
 .nav-links li a:hover {
   background-color: #d9d9d9;
   border-radius: 10px;
-
 }
 
 .menu-toggle.open span:nth-child(1) {
@@ -153,6 +157,10 @@ nav{
   position: fixed;
   z-index: 20;
   width: 100%;
+}
+
+.nav-links-desktop{
+  display: none;
 }
 
 .codigo-pagina-inicial{
@@ -249,7 +257,7 @@ pre {
 
 .experiencia-container{
   position: relative;
-  margin: 0 20px;
+  margin: 0 20px 0 28px;
   padding: 0 0 30px 10px;
   display: flex;
   flex-direction: row;
@@ -443,6 +451,52 @@ footer p{
 
 @media (min-width: 768px) {
   
+.menu-toggle {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links-desktop{
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links-desktop ul{
+  list-style: none;
+}
+
+.nav-links-desktop a{
+  text-decoration: none;
+  color: #000000;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.nav-links-desktop a:hover{
+  background-color: #F3F3F3;
+}
+
+.nav-links-desktop a:active{
+  background-color: #FAFAFA;
+}
+
+.navbar{
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.nav-bar-container{
+  margin: 0 20px;
+}
+
+
+
+
+
   .codigo-pagina-inicial pre{
     font-size: 18px;
   }

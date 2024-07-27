@@ -12,27 +12,38 @@
 </head>
 <body>
   <nav>
-    <div class="navbar">
-    <img src="/img/Logo.svg" alt="Logo">
 
-    <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="nav-bar-container">
+      <div class="navbar">
+        <a href="#pagina-inicial"><img src="/img/Logo.svg" alt="Logo"></a>
+        
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links-desktop">
+          <li><a href="#pagina-inicial">Página Inicial</a></li>
+          <li><a href="#sobre-mim">Sobre mim</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#pagina-inicial">Página Inicial</a></li>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </div>
-  </div>
-
-  <ul class="nav-links">
-    <li><a href="#">Página Inicial</a></li>
-    <li><a href="#">Sobre mim</a></li>
-    <li><a href="#">Experiências</a></li>
-    <li><a href="#">Projetos</a></li>
-    <li><a href="#">Contato</a></li>
-  </ul>
-
   </nav>
 
-  <main>
+  <main id="pagina-inicial">
     <div class="container-conteudo">
 
     <div class="codigo-pagina-inicial">
@@ -62,7 +73,7 @@
     </div>
   </main>
 
-  <section class="sobre-mim">
+  <section class="sobre-mim" id="sobre-mim">
     <div class="container-conteudo">
       <h1 class="subtitulo"><span>/</span>Sobre mim<span>.</span></h1>
 
@@ -82,7 +93,7 @@
     </div>
   </section>
 
-  <section class="experiencias">
+  <section class="experiencias" id="experiencias">
     <div class="container-conteudo">
       <h2 class="subtitulo"><span>/</span>Experiências<span>.</span></h2>
 
@@ -142,7 +153,7 @@
     </div>
   </section>
 
-  <section class="projetos">
+  <section class="projetos" id="projetos">
     <div class="container-conteudo">
 
       <h2 class="subtitulo"><span>/</span>Projetos<span>.</span></h2>
@@ -156,52 +167,68 @@
         </div>
 
         <div class="card">
-          <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
-          <h3>Jogo da Velha</h3>
-          <p>Este projeto é uma tentativa de reprodução do clássico jogo Jogo da Velha.</p>
+          <img class="imagem-projeto" src="/img/Projeto-2.svg" alt="Imagem do projeto">
+          <h3>Wheater app</h3>
+          <p>Projeto simples e intuitivo de consulta informações sobre o clima em várias cidades ao redor do mundo.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
 
         <div class="card">
-          <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
+          <img class="imagem-projeto" src="/img/Projeto-3.svg" alt="Imagem do projeto">
           <h3>Calculadora</h3>
-          <p>Este projeto é uma calculadora com interface gráfica.</p>
+          <p>Projeto de calculadora simples para auxiliar os usuários em cálculos básicos do dia a dia.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
 
         <div class="card">
           <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
-          <h3>Clone do Spotify</h3>
-          <p>Este projeto é uma tentativa de reprodução da interface do Spotify.</p>
+          <h3>Snake Game</h3>
+          <p>Este projeto é uma tentativa de reprodução do clássico jogo Snake.</p>
+          <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
+        </div>
+
+        <div class="card">
+          <img class="imagem-projeto" src="/img/Projeto-2.svg" alt="Imagem do projeto">
+          <h3>Wheater app</h3>
+          <p>Projeto simples e intuitivo de consulta informações sobre o clima em várias cidades ao redor do mundo.</p>
+          <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
+        </div>
+
+        <div class="card">
+          <img class="imagem-projeto" src="/img/Projeto-3.svg" alt="Imagem do projeto">
+          <h3>Calculadora</h3>
+          <p>Projeto de calculadora simples para auxiliar os usuários em cálculos básicos do dia a dia.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
         
         <div class="card">
           <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
-          <h3>API de Filmes</h3>
-          <p>Este projeto é uma API para consultar informações sobre filmes.</p>
+          <h3>Snake Game</h3>
+          <p>Este projeto é uma tentativa de reprodução do clássico jogo Snake.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
 
         <div class="card">
-          <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
-          <h3>API de Filmes</h3>
-          <p>Este projeto é uma API para consultar informações sobre filmes.</p>
+          <img class="imagem-projeto" src="/img/Projeto-2.svg" alt="Imagem do projeto">
+          <h3>Wheater app</h3>
+          <p>Projeto simples e intuitivo de consulta informações sobre o clima em várias cidades ao redor do mundo.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
 
         <div class="card">
-          <img class="imagem-projeto" src="/img/Projeto-1.svg" alt="Imagem do projeto">
-          <h3>API de Filmes</h3>
-          <p>Este projeto é uma API para consultar informações sobre filmes.</p>
+          <img class="imagem-projeto" src="/img/Projeto-3.svg" alt="Imagem do projeto">
+          <h3>Calculadora</h3>
+          <p>Projeto de calculadora simples para auxiliar os usuários em cálculos básicos do dia a dia.</p>
           <a href="https://github.com/jhonathanwallac"><img class="logo-github-projeto" src="/img/Github-logo-preto.svg" alt="Logo Github"></a>
         </div>
+
+
       </div>
     </div>
   </section>
 
 
-  <section class="contato">
+  <section class="contato" id="contato">
     <div class="container-conteudo">
 
       <h2 class="subtitulo" style="color: #FFFFFF;"><span>/</span>Contato<span>.</span></h2>
