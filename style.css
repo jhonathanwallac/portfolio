@@ -489,6 +489,7 @@ footer p{
 .navbar{
   max-width: 1200px;
   margin: 30px auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25)
 }
 
 .nav-bar-container{
@@ -537,7 +538,5 @@ footer p{
     gap: 20px;
     align-items: flex-end;
   }
-
-  
 
 }
