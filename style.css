@@ -346,12 +346,24 @@ pre {
   margin: 20px 20px 0px 20px;
 }
 
-.logo-github-projeto{
+.container-div-projeto{
   position: absolute;
-  left: 125px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
   bottom: 10px;
+  left: 97.5px;
+
+}
+
+.logo-github-projeto{
   max-width: 30px;
 }
+
+.icone-link-externo{
+  max-width: 30px;
+}
+
 
 
 .contato{
