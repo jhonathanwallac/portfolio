@@ -182,10 +182,10 @@ main{
 
 pre {
   color: #fff;
-  padding: 20px;
+  padding: 0 20px 0 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Jost', sans-serif;
 }
 
@@ -444,12 +444,17 @@ footer p{
   margin-top: 20px;
 }
 
-@media(max-width: 340px) {
+@media(max-width: 397px) {
+  .codigo-pagina-inicial pre{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 349px) {
   .codigo-pagina-inicial pre{
     font-size: 10px;
   }
 }
-
 
 @media (min-width: 768px) {
   
