@@ -64,7 +64,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
-  background-color: #e3e3e3;
+  background-color: #EDEDED;
   position: relative;
   z-index: 11;
 }
@@ -107,7 +107,7 @@ body {
   top: 30px;
   left: 20px;
   right: 20px;
-  background-color: #f3f3f3;
+  background-color: #F8F8F8;
   border-radius: 10px;
   max-height: 0;
   overflow: hidden;
@@ -237,7 +237,7 @@ pre {
 }
 
 .subtitulo{
-  padding: 30px 20px 20px 20px;
+  padding: 50px 20px 20px 20px;
   color: #000000;
   font-size: 36px;
   font-weight: 400;
@@ -246,7 +246,7 @@ pre {
 .sobre-mim p{
   padding: 0 20px 0 20px;
   color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   text-align: justify;
 }
@@ -283,12 +283,12 @@ pre {
 }
 
 .experiencia-texto h3{
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .experiencia-texto p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -305,10 +305,10 @@ pre {
 .tags span{
   background-color: #28F1A7;
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   border-radius: 10px;
-  padding: 2px 4px;
+  padding: 3px 6px;
 }
 
 
@@ -341,7 +341,7 @@ pre {
 }
 
 .card p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   margin: 20px 20px 0px 20px;
 }
@@ -392,13 +392,13 @@ pre {
 
 .contato-texto li{
   margin: 20px 20px 0 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .contato-localizacao p{
   color: #FFFFFF;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 footer{
@@ -479,11 +479,7 @@ footer p{
 }
 
 .nav-links-desktop a:hover{
-  background-color: #F3F3F3;
-}
-
-.nav-links-desktop a:active{
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
 }
 
 .navbar{
