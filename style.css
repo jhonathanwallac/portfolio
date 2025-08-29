@@ -100,21 +100,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -122,7 +118,6 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -153,7 +148,6 @@ body {
 .navbar.open {
   border-radius: 10px 10px 0 0;
 }
-
 .navbar img {
   width: 40px;
   height: 40px;
@@ -274,7 +268,6 @@ pre {
 .cor-28F1A7 {
   color: #28f1a7;
 }
-
 .cor-B0B0B0 {
   color: #b0b0b0;
 }
@@ -559,6 +552,17 @@ footer p {
 
 .container-elementos-sobre-mim img {
   margin-top: 20px;
+}
+
+.revelar {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.5s cubic-bezier(0.23, 1, 0.32, 1), transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: opacity, transform;
+}
+.revelar.visivel {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 397px) {
