@@ -208,7 +208,7 @@ pre {
   color: #6F6F6F;
 }
 
-.container-github-linkedin{
+.container-github-linkedin-pagina-inicial{
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -216,7 +216,19 @@ pre {
   gap: 10px;
 }
 
-.container-github-linkedin img{
+.container-github-linkedin-contato{
+  margin-right: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.container-github-linkedin-pagina-inicial img{
+  width: 30px;
+}
+
+.container-github-linkedin-contato img{
   width: 30px;
 }
 
@@ -350,9 +362,8 @@ pre {
   position: absolute;
   display: flex;
   flex-direction: row;
-  gap: 15px;
-  bottom: 10px;
-  left: 97.5px;
+  bottom: 20px;
+  left: 120px;
 
 }
 
@@ -361,7 +372,7 @@ pre {
 }
 
 .icone-link-externo{
-  max-width: 30px;
+  max-width: 40px;
 }
 
 
