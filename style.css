@@ -308,7 +308,8 @@ pre {
 }
 
 .sobre-mim {
-  background-color: #ffffff;
+  background-color: #F6F6F6;
+  padding-bottom: 50px;
 }
 
 .container-elementos-sobre-mim {
@@ -332,7 +333,7 @@ pre {
 .sobre-mim p {
   padding: 0 20px 0 20px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   text-align: justify;
 }
@@ -341,6 +342,7 @@ pre {
   max-height: 300px;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 80px;
 }
 
 .experiencia-container {
@@ -351,14 +353,14 @@ pre {
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  border-left: solid 4px #000000;
+  border-left: solid 3px #000;
   gap: 15px;
 }
 
 .marcador {
   position: absolute;
   width: 20px;
-  height: 5px;
+  height: 3px;
   background-color: #28f1a7;
   left: -12px;
 }
@@ -378,6 +380,10 @@ pre {
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+.outro-cargo{
+  margin-top: 25px;
 }
 
 .tags {
@@ -407,7 +413,7 @@ pre {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px 0 20px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .cabecalho-projetos h2 {
@@ -501,11 +507,6 @@ pre {
 .contato-texto p {
   font-size: 20px;
   font-weight: 300;
-}
-
-.contato-texto strong {
-  color: #28f1a7;
-  font-weight: 400;
 }
 
 .contato-texto ul {
@@ -604,7 +605,7 @@ footer p {
   }
 
   .nav-links-desktop a:hover {
-    background-color: #ffffff;
+    background-color: #e2e0e0;
   }
 
   .navbar {
@@ -635,7 +636,6 @@ footer p {
 
   .container-elementos-sobre-mim img {
     margin-top: 0;
-    margin-left: 20px;
   }
 
   .contato-elementos-container {
