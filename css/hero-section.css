@@ -1,0 +1,98 @@
+.codigo-pagina-inicial {
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 24px;
+}
+
+main {
+  background-color: #000000;
+}
+
+.container-conteudo-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+pre {
+  color: #fff;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  white-space: pre-wrap;
+  text-wrap-mode:nowrap;
+}
+.cor-28F1A7 {
+  color: #28f1a7;
+}
+
+.cor-B0B0B0 {
+  color: #ababab;
+}
+
+.cor-FFFFFF {
+  color: #ffffff;
+}
+
+.cor-000000 {
+  color: #000000;
+}
+
+.cor-00ffa1 {
+  color: #00ffa1;
+}
+
+.container-github-linkedin-pagina-inicial {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.container-github-linkedin-contato {
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.container-github-linkedin-pagina-inicial img {
+  width: 30px;
+}
+
+.container-github-linkedin-contato img {
+  width: 30px;
+}
+
+@media (max-width: 900px) {
+  .codigo-pagina-inicial pre {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .codigo-pagina-inicial pre {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .codigo-pagina-inicial pre {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 475px) {
+  .codigo-pagina-inicial pre {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 405px) {
+  .codigo-pagina-inicial pre {
+    font-size: 8px;
+  }
+}

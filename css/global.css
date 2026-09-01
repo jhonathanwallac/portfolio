@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section[id],
+main[id],
+footer[id] {
+  scroll-margin-top: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}

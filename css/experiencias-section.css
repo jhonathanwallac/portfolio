@@ -1,0 +1,119 @@
+.experiencias {
+  margin: 50px;
+}
+
+.container-conteudo-experiencias {
+  max-width: 1200px;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.experiencia-container {
+  position: relative;
+  margin: 0 20px 0 9px;
+  padding: 0 0 30px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  border-left: solid 3px #DDDDDD;
+  gap: 10px;
+}
+
+.subtitulo-experiencias {
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.subtitulo-experiencias span {
+  color: #28f1a7;
+}
+
+.marcador {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #28f1a7;
+  left: -12px;
+}
+
+.emoji {
+  line-height: 5px;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.experiencia-texto h3 {
+  line-height: 1;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experiencia-texto p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.container-subtexto-experiencia {
+  position: relative;
+  padding-left: 0px;
+  margin: 0 0 10px 0;
+  display: flex;
+  align-items: flex-start;
+  border-left: solid 3px #DDDDDD;
+}
+
+.icone-promocao {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.subtexto-experiencia p:first-child {
+    margin-bottom: 0px;
+}
+
+.subtexto-experiencia p:last-child {
+    margin-bottom: 0px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.tags span {
+  background-color: #28f1a7;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 3px 6px;
+}
+
+.experiencia-container:last-of-type {
+  padding: 0 0 0px 10px;
+}
+
+
+@media (max-width: 600px) {
+  .experiencias {
+    margin: 100px 20px 100px 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-conteudo-experiencias {
+    padding: 20px;
+  }
+}
