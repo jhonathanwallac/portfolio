@@ -8,6 +8,18 @@ footer[id] {
   scroll-margin-top: 100px;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, clamp(18px, 3vh, 38px), 0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 body {
   margin: 0;
   font-family: "Jost", sans-serif;
