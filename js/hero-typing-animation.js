@@ -1,16 +1,4 @@
-/**
- * Efeito de "digitação" para o bloco de código do Hero, preservando
- * as cores (<span class="cor-...">) já existentes no HTML.
- *
- * Diferente da primeira versão, aqui a digitação NÃO altera o tamanho
- * do elemento visível na tela: o texto completo já existe, escondido
- * (`.codigo-original`, visibility:hidden), reservando o espaço final
- * exato. A digitação acontece só em `.codigo-typing`, posicionado
- * absoluto por cima — assim o container nunca recentraliza no meio
- * da animação, porque o tamanho dele já está fixado desde o início.
- */
 function typeWriterDOM(sourceEl, targetEl, speed = 14) {
-  // clona a mesma estrutura de tags do original, mas com todo texto vazio
   function cloneEmpty(node) {
     if (node.nodeType === Node.TEXT_NODE) {
       return document.createTextNode('');
@@ -25,7 +13,6 @@ function typeWriterDOM(sourceEl, targetEl, speed = 14) {
     targetEl.appendChild(target.firstChild);
   }
 
-  // coleta pares [nó de texto original, nó de texto vazio correspondente], em ordem
   function collectTextPairs(orig, targ, list = []) {
     const origChildren = orig.childNodes;
     const targChildren = targ.childNodes;
@@ -45,8 +32,6 @@ function typeWriterDOM(sourceEl, targetEl, speed = 14) {
   let pairIndex = 0;
   let charIndex = 0;
 
-  // cursor: um único elemento que vai se deslocando pra logo após
-  // o texto que está sendo digitado no momento
   const cursor = document.createElement('span');
   cursor.className = 'typing-cursor-caret';
   cursor.textContent = '▌';
@@ -62,7 +47,7 @@ function typeWriterDOM(sourceEl, targetEl, speed = 14) {
 
   function tick() {
     if (pairIndex >= pairs.length) {
-      return; // termina com o cursor piscando na última posição
+      return;
     }
 
     const [origNode, targNode] = pairs[pairIndex];
