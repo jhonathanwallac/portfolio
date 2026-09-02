@@ -67,6 +67,32 @@ pre {
   width: 30px;
 }
 
+.codigo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.codigo-original {
+  visibility: hidden;
+}
+
+.codigo-typing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.typing-cursor-caret {
+  color: #28f1a7;
+  animation: piscar 0.9s step-end infinite;
+}
+
+@keyframes piscar {
+  50% { opacity: 0; }
+}
+
+
 @media (max-width: 900px) {
   .codigo-pagina-inicial pre {
     font-size: 16px;
