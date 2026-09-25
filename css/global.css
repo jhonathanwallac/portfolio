@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  /* O site só tem tema claro: evita que o modo escuro do navegador mude o fundo padrão. */
+  color-scheme: light;
 }
 
 section[id],
@@ -8,7 +10,19 @@ footer[id] {
   scroll-margin-top: 100px;
 }
 
+/* Oculta na tela, mas mantém para buscadores e leitores de tela. */
+.visualmente-oculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 body {
   margin: 0;
   font-family: "Jost", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
 }

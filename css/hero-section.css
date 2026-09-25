@@ -44,6 +44,29 @@ pre {
   color: #00ffa1;
 }
 
+.texto-oculto {
+  visibility: hidden;
+}
+
+.cursor-digitacao {
+  display: inline-block;
+  width: 0;
+  height: 1em;
+  margin-right: -2px;
+  border-left: 2px solid #28f1a7;
+  vertical-align: -0.15em;
+}
+
+.cursor-digitacao.piscando {
+  animation: piscar-cursor 1s step-end infinite;
+}
+
+@keyframes piscar-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
 .container-github-linkedin-pagina-inicial {
   position: absolute;
   bottom: 20px;

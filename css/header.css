@@ -91,6 +91,12 @@
   border-radius: 10px;
 }
 
+.nav-links li a.ativo,
+.nav-links li a.ativo:hover {
+  background-color: #cacaca;
+  border-radius: 10px;
+}
+
 .menu-toggle.open span:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
 }
@@ -144,6 +150,15 @@ nav {
 
   .nav-links-desktop a:hover {
     background-color: #e2e0e0;
+  }
+
+  .nav-links-desktop a {
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-links-desktop a.ativo,
+  .nav-links-desktop a.ativo:hover {
+    background-color: #d3d1d1;
   }
 
   .navbar {
